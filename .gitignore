@@ -1,0 +1,21 @@
+# Node
+node_modules
+.env
+build
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv
+venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Render specific
+.render/
