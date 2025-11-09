@@ -19,7 +19,9 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/locations') // Assuming backend runs on port 5000
+    const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000/api/locations';
+
+    fetch(apiUrl) // Use the configured API URL
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
