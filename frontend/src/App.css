@@ -1,7 +1,86 @@
-.App {
-  text-align: center;
+/* General Body Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5; /* Light gray background */
+  color: #333;
 }
 
-.card {
+/* Gov-style Header */
+.header-gov {
+  background-color: #004488; /* Dark blue */
+  color: white;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 4px solid #00b38a; /* Green accent */
+}
+
+.header-gov .logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+/* Main Title */
+.main-title {
+  color: #004488; /* Dark blue */
+  font-weight: bold;
   text-align: left;
+  margin-bottom: 2rem;
+}
+
+/* Card Styles */
+.location-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.location-card:hover {
+  transform: translateY(-5px);
+}
+
+.location-card .card-header {
+  background-color: #00b38a; /* Green */
+  color: white;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.location-card .card-body {
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.location-card .card-body strong {
+  color: #004488; /* Dark blue */
+}
+
+/* Map Card */
+.map-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 0;
+  overflow: hidden; /* Ensures the map stays within the rounded corners */
+}
+
+.map-card .card-header {
+  background-color: #f8f9fa;
+  color: #004488;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer-gov {
+  background-color: #333;
+  color: white;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
 }
