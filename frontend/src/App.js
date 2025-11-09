@@ -55,6 +55,7 @@ function App() {
       <div className="container mt-4">
         <h1 className="mb-4">Localizações de Unidades de Saúde</h1>
         
+        {/* Placeholder for the Map Component */}
         <div className="card mb-4">
           <div className="card-header">Mapa das Unidades</div>
           <div className="card-body" style={{ height: '400px' }}> {/* Set a height for the map */}
