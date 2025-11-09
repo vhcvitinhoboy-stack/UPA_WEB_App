@@ -1,1 +1,35 @@
-git add .
+[
+  {
+    "nome": "UPA SINOP DRA ANETE MARIA MOTA MARIA",
+    "endereco": "Avenida Andre Antonio Maggi",
+    "bairro": "JARDIM DAS ACACIAS",
+    "numero": "7077",
+    "cep": "78553252",
+    "latitude": "-11.884149",
+    "longitude": "-55.513524",
+    "numero_de_contato": "(66) 3520-3400",
+    "horario_de_funcionamento": "24 horas"
+  },
+  {
+    "nome": "UBS JOSÉ RAMOS PEREIRA ZEQUINHA (MARIA VINDILINA II)",
+    "endereco": "Rua Teles Pires esquina com Nicolau Flessak",
+    "bairro": "JD MARIA VINDILINA I",
+    "numero": "252",
+    "cep": "78555230",
+    "latitude": "-11.890696",
+    "longitude": "-55.513575",
+    "numero_de_contato": "(66) 99229-4776",
+    "horario_de_funcionamento": "Normal: Segunda a Sexta (07h-11h / 13h-17h). Horário estendido para urgência até 22h, Sábados das 07h30 às 16h30."
+  },
+  {
+    "nome": "POLICLÍNICA MENINO JESUS",
+    "endereco": "Rua Colonizador Enio Pipino",
+    "bairro": "SAO CRISTOVAO",
+    "numero": "523",
+    "cep": "78557484",
+    "latitude": "-11.869041",
+    "longitude": "-55.485188",
+    "numero_de_contato": "(66) 3211-1981",
+    "horario_de_funcionamento": "Noturno (Segunda a Sexta, 19h às 06h). Finais de Semana e Feriados: 24 horas."
+  }
+]
