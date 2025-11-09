@@ -1,1 +1,4 @@
 git add .
+git commit -m "Setup final: Adicionando estrutura completa do projeto UPA"
+git branch -M main
+git push -u origin main
