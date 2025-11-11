@@ -30,7 +30,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000/api/locations';
+    const apiUrl = 'https://upa-web-app-backend-b8h3.onrender.com/api/locations';
     fetch(apiUrl)
       .then(response => {
         if (!response.ok) {
