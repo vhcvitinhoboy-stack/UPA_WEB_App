@@ -8,7 +8,8 @@
     "react-scripts": "5.0.1",
     "bootstrap": "^5.3.3",
     "react-leaflet": "4.0.0",
-    "leaflet": "^1.7.1"
+    "leaflet": "^1.7.1",
+    "serve": "^14.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
